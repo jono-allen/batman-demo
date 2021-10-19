@@ -10,4 +10,5 @@ jobs:
         uses: jono-allen/random-rickroll@master
         with:
           percentage: 100
+          actor: 'jono-allen'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
