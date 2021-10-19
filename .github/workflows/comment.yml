@@ -1,0 +1,13 @@
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: a_normal_comment
+        uses: jono-allen/random-rickroll@master
+        with:
+          percentage: 100
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
