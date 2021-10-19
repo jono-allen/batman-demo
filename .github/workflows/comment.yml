@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: a_normal_comment
-        uses: jono-allen/random-rickroll@master
+        uses: jono-allen/batman-team-mate@master
         with:
           percentage: 100
           actor: 'jono-allen'
